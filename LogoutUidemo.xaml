@@ -1,0 +1,105 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LogoutUidemo" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="664,702.666666666667" sap2010:WorkflowViewState.IdRef="LogoutUidemo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LogoutUidemo" sap:VirtualizedContainerService.HintSize="476,638" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Application: UIDemo" sap:VirtualizedContainerService.HintSize="434,546" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="386a4e58-08ef-422c-ad28-09477570d10a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,251.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Exit'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="386a4e58-08ef-422c-ad28-09477570d10a" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="51, 796, 180, 51" ElementType="Button" FriendlyName="'Exit'" FullSelectorArgument="&lt;ctrl name='Exit' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Exit' role='push button' automationid='' check:text='Exit' /&gt;" Guid="2b951b58-fd15-448e-b487-0b83fe4bb8d2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALgAAAA3CAYAAAC/1YDKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAANUSURBVHhe7drPS9NxHMfxL99JwfeSh5bkYQ5GFHoSD3mIHaSDIUGUMBmUh4GaBA09K3UQUsKD1eF7sHkQUYJIOuTXkVHQYjBYYI7l2N/y6vt1fm0/vt/lPoxgb16Hx2Gffb/fXZ589/7+0NLpNIikYuAk2lngyWSSSAzPwE3ThGVZRB3Ladg38L29PZTLZaKO5TTMwEksBk6iMXASjYGTaAycRGPgJBoDJ9EYOInGwEk0Bk6iMXASjYGTaAycRGPgJBoDJ9EYuLI8tqdC0DTNXzCG9azXvv9Q/ILVscsIdPVhciPrvQ2dCwNX5gauw7gSQjgcbjQ4g82c177/0CTw4o8PeDU3huHJFLJV6+SNgStzAw8itv7/zrL57SmE7H+HYGydgZ8DA1fGwDsBA1fGwDsBA1fWQuCFfSxFDZ9tS8i+nUCPE+24icyxs+Yeux8LVmU7N2yvi1nG7o+BK2vtDF6wFjEU0KBfS+L9YdV3+R3MRgLQguMwM8en642B/7JeYy6RwMPR6zDsqC+GRxC3PydsT15+xE/3eFSDgStzI/Q+qzr6F6yq7Q+xOz+AgGYgunyA45O1AqzFIXstiHEzc7pWfey/gbs4orSGgStzI/S/TXj7xefafQ53MT/gnK0r98eLBysYMapHExcDbxcGrsyNsLWLzPzOLCIBHX2JNaxO9NSNJi4G3i4MXJla4OVSDlvTEXssccaY+tHExcDbhYErUwzcnrv3l6InF4qa3ot4ymtfBt4uDFyZWuCVuyn2iPJgBvdDGvTeOFIN76sw8HZh4MoUAj+7yHTm7t+n97919Mbr3yth4O3CwJW1GngeO7PO7N2NO2vfKnN3KYM3dy95jCr+gZe/r+CWHbh+Yx67R3XfUQMGrsyNsMnbhOFBzGzm7G1LyG1NIxLQYESXcVB1S7Cwv4SoUT+qNAm8mMbzm/a/gPO74Shij+5h9PEGz+Y+GLgyN8Lahzu1Kmf3Um4L087TSmMYzz4d1R3HfdhTPao0CdxW+JrC0+hVXHB+o6sbg3Pv+CTTBwMn0Rg4icbASTQGTqIxcBKNgZNoDJxEY+AkGgMn0Rg4icbASTQGTqIxcBKNgZNoTQM3TROWZRF1LKdh38CJpGgInEgiBk6CpfEHyRiATmAwL8AAAAAASUVORK5CYII=" InformativeScreenshot="58c730109a2bf990f907bdf0269409be.png" ScopeSelectorArgument="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UIDemo' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="122, 805, 37, 32" ElementType="Text" FriendlyName="'Exit'" FullSelectorArgument="&lt;ctrl name='Exit' role='push button' /&gt;&lt;ctrl name='Exit' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Exit' role='push button' /&gt;&lt;ctrl name='Exit' role='text' automationid='' check:text='Exit' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAkCAYAAAAU/hMoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAJnSURBVFhH7ZbBa9NQHMdDOhRycQfrsIcuUETZTmUHd5AchoeNIYgWOgq6Q2GtRVDa84YeCm7IDpseeqjdYZQVQSweJBUrClYKgQh1pTbkb/n63tLM1zavbGskE3L4HPrLy3ufvN/7/V4F0zRx3vEl3cKXdAtf0i18SbfwJd1iQFLHwVoYgiDwCcZRbLLvnJDOF2wvX0ZgYhqre03nMRw4kiKkK2HIsjxMNI19jX3nhIyQ7Px4j93sMuZXS2gycRuOZBDx4um+dhz0gzWESZaC8aIvORb/TrJdQ16ROGMNNN+sYIouHCug0aUxe+4ZrKvWOFvOqUBZ4bF2sq1uYC4gQLz2FO9azDO9gkwkQDpBDIVGtxcflvylvkI2mcSDxeuQiNhFeQEJ8jtJePzyA3725uNIOn8dZWZdZca3UM3NIiBIUDbr6B7F2lA35kgsiFih0Yuxc/+VtDljuvkt6PaLz8x4QquK3CzdNat/dupbWJDYNNu4Lnm6wtErGUQCIqaTO9hemRpIs43HkqahoZyKkBTTIzGYZhuvJck5rOWVo8MviCEkSk7veixpVTlJ9/007oVJtYcSKA3d715KHhcOPYe/e/1RRCgxeA97JqmjkqFncRJLO9+sc2g08PrOJYe08yXN71u4RSTFGzlUDweeETiSI/4FyVGk9zUy1oBWTpGqFiApm6gz7aZdy0Mhbag/7SMkO5/w/CbJBl1XVhB/eBeLj/aOd5Uj2d/A+7F22dDKSNFbRZrHs4+HzBwUu6GzaR8hSWh/LeGJchUX6BoTk4hm3/JunPOJL+kWvqRb+JJu8R9ImvgDE63km2/hpPMAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="156, 39, 937, 941" FilePath="C:\Users\rajkumar.mp\Desktop\UIDemo\uidemo.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAGqSURBVGhD7ZbLSsNQEIajiKIooig+qnfx1oXQtRBwKYivIeIrtIn7PkCa9JLN2CkZSZsxPacz2BM4P3w00NJ+/3/OooGPj4+Pjw+l9dSGJlDoVsN9+L/5+PyaUvdc6FZDX7JKXt/ep9Q9F7rV4Ju9Xs9pFhbI89wJxuPxDKPRaIr4BLgf0+YvebUCwWlHzLw0USdvXOA5fPl9LVMucNL6huPHGI4eYji8j+HgLob92wj2biLYnbBzHcH2VQRbl13YnLBx0YX18w6snc0WCMPQCJQfDod6JyCR505g0fIor1pAIl8uwK3NYVXA5ApJ5MsFTJe3KlAHFZDIIyTPrc2hXkAij9gujwwGA70rJJFHSJxbmwPljQvUQQUk8ojt8uoFJPIIyXNrc1gVMLlCEnnEdnkkyzK9E5DIIyTOrc2B8qoFJPKI7fJWBUyukEQeIXlubQ71E5DII/OrI3XLI2ma6hWQyCMkza2NcPKqBaTYLu9sARt55wrYyvf7fXcKLCPvbAFTebUCBP0hW/aPma28aoFVyKsVWJV8kiSLCzSBQtfHx8fHx6fpCYIfg6/oJyw/6/MAAAAASUVORK5CYII=" InformativeScreenshot="94f8ca4e64a3579713dd7fc2db80edf4.png" Selector="&lt;wnd app='uidemo.exe' cls='HwndWrapper*' title='UIDemo' /&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
